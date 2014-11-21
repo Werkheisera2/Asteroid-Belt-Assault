@@ -24,6 +24,9 @@ namespace Asteroid_Belt_Assault
         Texture2D titleScreen;
         Texture2D spriteSheet;
 
+        Sprite reticule;
+        Texture2D reticuletexture;
+
         StarField starField;
         AsteroidManager asteroidManager;
         PlayerManager playerManager;
@@ -34,10 +37,13 @@ namespace Asteroid_Belt_Assault
 
         SpriteFont pericles14;
 
-        private float playerDeathDelayTime = 10f;
+        MouseState oldms;
+
+        private float playerDeathDelayTime = 2f;
         private float playerDeathTimer = 0f;
         private float titleScreenTimer = 0f;
         private float titleScreenDelayTime = 1f;
+        private float reticuleTimer = 1f;
 
         private int playerStartingLives = 3;
         private Vector2 playerStartLocation = new Vector2(390, 550);
@@ -73,8 +79,9 @@ namespace Asteroid_Belt_Assault
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            titleScreen = Content.Load<Texture2D>(@"Textures\TitleScreen");
+            titleScreen = Content.Load<Texture2D>(@"Textures\Spacetitle");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
+            reticuletexture = Content.Load<Texture2D>(@"Textures\Reticule");
 
             starField = new StarField(
                 this.Window.ClientBounds.Width,
@@ -126,6 +133,13 @@ namespace Asteroid_Belt_Assault
                 explosionManager);
 
             SoundManager.Initialize(Content);
+
+            reticule = new Sprite(
+                Vector2.Zero,
+                reticuletexture,
+                new Rectangle(0, 0, 210, 202),
+                new Vector2(0, 0)
+                );
 
             pericles14 = Content.Load<SpriteFont>(@"Fonts\Pericles14");
 
@@ -248,6 +262,23 @@ namespace Asteroid_Belt_Assault
 
             }
 
+            MouseState ms = Mouse.GetState();
+
+            reticule.RelativeSize = 0.2f;
+            reticule.Location = new Vector2(ms.X, ms.Y);
+
+            if (oldms.LeftButton != ButtonState.Pressed && ms.LeftButton == ButtonState.Pressed)
+            {
+                while (reticuleTimer > 0)
+                {
+                    reticuleTimer--;
+                    reticule.RelativeSize = 0.4f;
+                }
+            }
+
+            if (reticuleTimer == 0)
+                reticule.RelativeSize = 0.2f;
+
             base.Update(gameTime);
         }
 
@@ -308,6 +339,7 @@ namespace Asteroid_Belt_Assault
                     Color.White);
             }
 
+            reticule.Draw(spriteBatch);
 
             spriteBatch.End();
 

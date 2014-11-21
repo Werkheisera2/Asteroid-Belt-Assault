@@ -25,6 +25,8 @@ namespace Asteroid_Belt_Assault
         public int BoundingXPadding = 0;
         public int BoundingYPadding = 0;
 
+        public float RelativeSize = 1;
+
         protected Vector2 location = Vector2.Zero;
         protected Vector2 velocity = Vector2.Zero;
 
@@ -164,7 +166,7 @@ namespace Asteroid_Belt_Assault
                 tintColor,
                 rotation,
                 new Vector2(frameWidth / 2, frameHeight / 2),
-                1.0f,
+                RelativeSize,
                 SpriteEffects.None,
                 0.0f);
         }

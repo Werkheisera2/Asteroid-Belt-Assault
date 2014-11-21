@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2010-08-10T11:03:12+05:30</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
+      <Time>2014-11-21T07:24:12.4948-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\TitleScreen.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2010-08-10T11:03:12+05:30</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
+      <Time>2014-11-21T07:24:12.5104-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion1.wav</Source>
@@ -25,8 +25,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion1.xnb</Output>
-      <Time>2010-08-11T22:23:56+05:30</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion1.xnb</Output>
+      <Time>2014-11-21T07:24:12.4792-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion2.wav</Source>
@@ -34,8 +34,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion2.xnb</Output>
-      <Time>2010-08-11T22:23:56+05:30</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion2.xnb</Output>
+      <Time>2014-11-21T07:24:12.4792-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion3.wav</Source>
@@ -43,8 +43,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion3.xnb</Output>
-      <Time>2010-08-11T22:23:56+05:30</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion3.xnb</Output>
+      <Time>2014-11-21T07:24:12.4792-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion4.wav</Source>
@@ -52,8 +52,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion4.xnb</Output>
-      <Time>2010-08-11T22:23:56+05:30</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion4.xnb</Output>
+      <Time>2014-11-21T07:24:12.4948-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Shot1.wav</Source>
@@ -61,8 +61,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot1.xnb</Output>
-      <Time>2010-08-11T22:23:56+05:30</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot1.xnb</Output>
+      <Time>2014-11-21T07:24:12.4948-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Shot2.wav</Source>
@@ -70,8 +70,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot2.xnb</Output>
-      <Time>2010-08-11T22:23:56+05:30</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot2.xnb</Output>
+      <Time>2014-11-21T07:24:12.4948-05:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Pericles14.spritefont</Source>
@@ -79,8 +79,35 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Fonts\Pericles14.xnb</Output>
-      <Time>2010-08-11T22:54:58+05:30</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Fonts\Pericles14.xnb</Output>
+      <Time>2014-11-21T07:24:12.4792-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Reticule.png</Source>
+      <Name>Textures\Reticule</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Reticule.xnb</Output>
+      <Time>2014-11-21T07:33:13.0456-05:00</Time>
+    </Item>
+    <Item>
+      <Source>reggaishark(1).png</Source>
+      <Name>reggaishark(1)</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\reggaishark(1).xnb</Output>
+      <Time>2014-11-21T08:24:55.8276-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Spacetitle.jpg</Source>
+      <Name>Textures\Spacetitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Spacetitle.xnb</Output>
+      <Time>2014-11-21T08:45:33.8406-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -88,39 +115,39 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Dayan Haymes\Desktop\0669_05_CODE\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+05:30</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T12:41:18+05:30</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+05:30</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+05:30</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+05:30</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T12:41:18+05:30</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2010-09-20T19:27:00.4572028+05:30</Value>
+        <Value>2012-04-18T11:24:14.1308-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
