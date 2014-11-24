@@ -23,6 +23,7 @@ namespace Asteroid_Belt_Assault
         GameStates gameState = GameStates.TitleScreen;
         Texture2D titleScreen;
         Texture2D spriteSheet;
+        Texture2D RsharkSheet;
 
         Sprite reticule;
         Texture2D reticuletexture;
@@ -133,6 +134,8 @@ namespace Asteroid_Belt_Assault
                 explosionManager);
 
             SoundManager.Initialize(Content);
+
+            
 
             reticule = new Sprite(
                 Vector2.Zero,
