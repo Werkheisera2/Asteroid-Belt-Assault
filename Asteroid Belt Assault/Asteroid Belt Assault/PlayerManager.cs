@@ -5,6 +5,8 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Media;
 
 namespace Asteroid_Belt_Assault
 {
@@ -17,12 +19,16 @@ namespace Asteroid_Belt_Assault
         public long PlayerScore = 0;
         public int LivesRemaining = 3;
         public bool Destroyed = false;
+        public bool isSongPlaying = false;
 
         private Vector2 gunOffset = new Vector2(25, 10);
         private float shotTimer = 0.0f;
         private float minShotTimer = 0.2f;
         private int playerRadius = 15;
+       
         public ShotManager PlayerShotManager;
+
+        KeyboardState oldks;
 
         public PlayerManager(
             Texture2D texture,  
@@ -43,7 +49,7 @@ namespace Asteroid_Belt_Assault
                 2,
                 250f,
                 screenBounds);
-
+           
             playerAreaLimit =
                 new Rectangle(
                     0,
@@ -103,9 +109,19 @@ namespace Asteroid_Belt_Assault
                 FireShot();
             }
 
-            if (keyState.IsKeyDown(Keys.R))
+            if (!oldks.IsKeyDown(Keys.R) && keyState.IsKeyDown(Keys.R))
             {
-                // reggae shark stuff
+                if (!isSongPlaying)
+                {
+                    isSongPlaying = true;
+                    MediaPlayer.Play(SoundManager.Reggae);
+                }
+                else
+                {
+                    isSongPlaying = false;
+                    MediaPlayer.Stop();
+                }
+                
             }
         }
 

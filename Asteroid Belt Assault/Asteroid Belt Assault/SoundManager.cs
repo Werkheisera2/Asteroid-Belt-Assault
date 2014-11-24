@@ -6,6 +6,7 @@ using System.Diagnostics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Media;
 
 
 namespace Asteroid_Belt_Assault
@@ -18,6 +19,7 @@ namespace Asteroid_Belt_Assault
 
         private static SoundEffect playerShot;
         private static SoundEffect enemyShot;
+        public static Song Reggae;
 
         private static Random rand = new Random();
 
@@ -27,7 +29,7 @@ namespace Asteroid_Belt_Assault
             {
                 playerShot = content.Load<SoundEffect>(@"Sounds\Shot1");
                 enemyShot = content.Load<SoundEffect>(@"Sounds\Shot2");
-
+                Reggae = content.Load<Song>(@"Reggae");
                 for (int x = 1; x <= explosionCount; x++)
                 {
                     explosions.Add(

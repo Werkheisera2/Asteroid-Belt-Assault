@@ -59,5 +59,8 @@ C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Ast
 C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.exe
 C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.pdb
 C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Reticule.xnb
-C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\reggaishark(1).xnb
 C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Spacetitle.xnb
+C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\reggaishark(1).xnb
+C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\button.xnb
+C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Reggae.xnb
+C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Reggae.wma

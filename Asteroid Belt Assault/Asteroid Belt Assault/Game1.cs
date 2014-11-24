@@ -23,8 +23,8 @@ namespace Asteroid_Belt_Assault
         GameStates gameState = GameStates.TitleScreen;
         Texture2D titleScreen;
         Texture2D spriteSheet;
-        Texture2D RsharkSheet;
-
+        
+      
         Sprite reticule;
         Texture2D reticuletexture;
 
@@ -83,6 +83,7 @@ namespace Asteroid_Belt_Assault
             titleScreen = Content.Load<Texture2D>(@"Textures\Spacetitle");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
             reticuletexture = Content.Load<Texture2D>(@"Textures\Reticule");
+           // RsharkbuttonSheet = Content.Load<Texture2D>(@"Textures\button");
 
             starField = new StarField(
                 this.Window.ClientBounds.Width,
@@ -135,7 +136,6 @@ namespace Asteroid_Belt_Assault
 
             SoundManager.Initialize(Content);
 
-            
 
             reticule = new Sprite(
                 Vector2.Zero,
@@ -281,6 +281,8 @@ namespace Asteroid_Belt_Assault
 
             if (reticuleTimer == 0)
                 reticule.RelativeSize = 0.2f;
+
+            //playerSprite.TintColor = Color.Green;
 
             base.Update(gameTime);
         }
