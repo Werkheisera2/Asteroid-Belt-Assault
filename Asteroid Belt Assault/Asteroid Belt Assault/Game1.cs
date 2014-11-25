@@ -23,6 +23,11 @@ namespace Asteroid_Belt_Assault
         GameStates gameState = GameStates.TitleScreen;
         Texture2D titleScreen;
         Texture2D spriteSheet;
+        KeyboardState oldks;
+
+
+        Sprite reggaeship;
+        Texture2D reggaeshiptexture;
         
       
         Sprite reticule;
@@ -144,6 +149,12 @@ namespace Asteroid_Belt_Assault
                 new Vector2(0, 0)
                 );
 
+            reggaeship = new Sprite(
+                Vector2.Zero,
+                reggaeshiptexture,
+                new Rectangle(0, 0, 192, 256),
+                Vector2.Zero);
+
             pericles14 = Content.Load<SpriteFont>(@"Fonts\Pericles14");
 
 
@@ -178,6 +189,7 @@ namespace Asteroid_Belt_Assault
         /// checking for collisions, gathering input, and playing audio.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        /// 
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit

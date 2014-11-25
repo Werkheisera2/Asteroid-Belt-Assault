@@ -9,7 +9,7 @@ Content\Sounds\Shot2.xnb
 Content\Fonts\Pericles14.xnb
 Content\Textures\Reticule.xnb
 Content\Textures\Spacetitle.xnb
-Content\Textures\reggaishark(1).xnb
 Content\Textures\button.xnb
 Content\Reggae.xnb
 Content\Reggae.wma
+Content\Textures\reggaeshark.xnb

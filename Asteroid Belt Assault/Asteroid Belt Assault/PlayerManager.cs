@@ -116,13 +116,16 @@ namespace Asteroid_Belt_Assault
                     isSongPlaying = true;
                     MediaPlayer.Play(SoundManager.Reggae);
                 }
-                else
-                {
-                    isSongPlaying = false;
-                    MediaPlayer.Stop();
-                }
+                
                 
             }
+
+            if (!oldks.IsKeyDown(Keys.T) && keyState.IsKeyDown(Keys.T))
+            {
+                isSongPlaying = false;
+                MediaPlayer.Stop();
+            }
+              
         }
 
         private void HandleGamepadInput(GamePadState gamePadState)

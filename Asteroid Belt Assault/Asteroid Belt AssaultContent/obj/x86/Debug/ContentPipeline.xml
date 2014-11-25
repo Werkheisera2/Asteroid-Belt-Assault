@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2014-11-24T07:26:31.3996-05:00</Time>
+      <Time>2014-11-25T07:56:31.5276-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\TitleScreen.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2014-11-24T07:26:31.4076-05:00</Time>
+      <Time>2014-11-25T07:56:31.5366-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion1.wav</Source>
@@ -26,7 +26,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion1.xnb</Output>
-      <Time>2014-11-24T07:26:31.3846-05:00</Time>
+      <Time>2014-11-25T07:56:31.5136-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion2.wav</Source>
@@ -35,7 +35,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion2.xnb</Output>
-      <Time>2014-11-24T07:26:31.3856-05:00</Time>
+      <Time>2014-11-25T07:56:31.5146-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion3.wav</Source>
@@ -44,7 +44,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion3.xnb</Output>
-      <Time>2014-11-24T07:26:31.3876-05:00</Time>
+      <Time>2014-11-25T07:56:31.5156-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion4.wav</Source>
@@ -53,7 +53,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion4.xnb</Output>
-      <Time>2014-11-24T07:26:31.3886-05:00</Time>
+      <Time>2014-11-25T07:56:31.5176-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Shot1.wav</Source>
@@ -62,7 +62,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot1.xnb</Output>
-      <Time>2014-11-24T07:26:31.3886-05:00</Time>
+      <Time>2014-11-25T07:56:31.5176-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Shot2.wav</Source>
@@ -71,7 +71,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot2.xnb</Output>
-      <Time>2014-11-24T07:26:31.3896-05:00</Time>
+      <Time>2014-11-25T07:56:31.5186-05:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Pericles14.spritefont</Source>
@@ -80,7 +80,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Fonts\Pericles14.xnb</Output>
-      <Time>2014-11-24T08:42:41.9296-05:00</Time>
+      <Time>2014-11-25T07:56:31.1356-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Reticule.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Reticule.xnb</Output>
-      <Time>2014-11-24T07:26:31.3906-05:00</Time>
+      <Time>2014-11-25T07:56:31.5186-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spacetitle.jpg</Source>
@@ -98,16 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Spacetitle.xnb</Output>
-      <Time>2014-11-24T08:34:25.0476-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\reggaishark(1).png</Source>
-      <Name>Textures\reggaishark(1)</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\reggaishark(1).xnb</Output>
-      <Time>2014-11-24T07:29:52.3346-05:00</Time>
+      <Time>2014-11-25T07:56:31.5266-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\button.png</Source>
@@ -116,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\button.xnb</Output>
-      <Time>2014-11-24T07:46:58.2436-05:00</Time>
+      <Time>2014-11-25T07:56:31.5366-05:00</Time>
     </Item>
     <Item>
       <Source>Reggae Shark [FULL SONG].wav</Source>
@@ -126,7 +117,16 @@
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Reggae.xnb</Output>
       <Extra>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Reggae.wma</Extra>
-      <Time>2014-11-24T08:16:54.8016-05:00</Time>
+      <Time>2014-11-25T07:56:31.5096-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\reggaeshark.png</Source>
+      <Name>Textures\reggaeshark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\reggaeshark.xnb</Output>
+      <Time>2014-11-25T07:56:31.5376-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

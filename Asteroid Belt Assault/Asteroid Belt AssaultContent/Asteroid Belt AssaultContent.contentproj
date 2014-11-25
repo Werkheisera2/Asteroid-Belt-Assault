@@ -82,8 +82,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Textures\reggaishark%281%29.png">
-      <Name>reggaishark%281%29</Name>
+    <Compile Include="Textures\reggaeshark.png">
+      <Name>reggaeshark</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
