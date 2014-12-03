@@ -22,7 +22,7 @@ namespace Asteroid_Belt_Assault
         enum GameStates { TitleScreen, Playing, PlayerDead, GameOver };
         GameStates gameState = GameStates.TitleScreen;
         Texture2D titleScreen;
-        Texture2D spriteSheet;
+        public Texture2D spriteSheet;
         KeyboardState oldks;
 
 
@@ -88,6 +88,8 @@ namespace Asteroid_Belt_Assault
             titleScreen = Content.Load<Texture2D>(@"Textures\Spacetitle");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
             reticuletexture = Content.Load<Texture2D>(@"Textures\Reticule");
+
+            
            // RsharkbuttonSheet = Content.Load<Texture2D>(@"Textures\button");
 
             starField = new StarField(
@@ -114,7 +116,9 @@ namespace Asteroid_Belt_Assault
                     0,
                     0,
                     this.Window.ClientBounds.Width,
-                    this.Window.ClientBounds.Height));
+                    this.Window.ClientBounds.Height)
+                if(KeyState.Down(Keys.R)==false||
+               ;
 
             enemyManager = new EnemyManager(
                 spriteSheet,
@@ -348,7 +352,7 @@ namespace Asteroid_Belt_Assault
             {
                 spriteBatch.DrawString(
                     pericles14,
-                    "G A M E  O V E R !",
+                    "Y !",
                     new Vector2(
                         this.Window.ClientBounds.Width / 2 -
                           pericles14.MeasureString("G A M E  O V E R !").X / 2,
