@@ -351,10 +351,10 @@ namespace Asteroid_Belt_Assault
             {
                 spriteBatch.DrawString(
                     pericles14,
-                    "Y !",
+                    "Y O U ' R E  A  F A I L U R E !",
                     new Vector2(
                         this.Window.ClientBounds.Width / 2 -
-                          pericles14.MeasureString("G A M E  O V E R !").X / 2,
+                          pericles14.MeasureString("Y O U ' R E  A  F A I L U R E !").X / 2,
                         50),
                     Color.White);
             }

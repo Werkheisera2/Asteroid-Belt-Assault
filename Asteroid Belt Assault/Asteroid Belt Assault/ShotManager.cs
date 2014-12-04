@@ -91,6 +91,5 @@ namespace Asteroid_Belt_Assault
             }
         }
 
-    
     }
 }
