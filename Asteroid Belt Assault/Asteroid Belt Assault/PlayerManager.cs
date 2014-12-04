@@ -29,6 +29,8 @@ namespace Asteroid_Belt_Assault
        
         public ShotManager PlayerShotManager;
 
+        private Texture2D texture;
+
         KeyboardState oldks;
 
         public PlayerManager(
@@ -37,6 +39,8 @@ namespace Asteroid_Belt_Assault
             int frameCount,
             Rectangle screenBounds)
         {
+            this.texture = texture;
+
             playerSprite = new Sprite(
                 new Vector2(500, 500),
                 texture,
@@ -68,15 +72,19 @@ namespace Asteroid_Belt_Assault
                         initialFrame.Height));
             }
             playerSprite.CollisionRadius = playerRadius;
+
+            
         }
 
         private void FireShot()
         {
             if (shotTimer >= minShotTimer)
             {
+                Vector2 target = new Vector2((float)Math.Sin((double)playerSprite.Rotation), -(float)Math.Cos((double)playerSprite.Rotation));
+
                 PlayerShotManager.FireShot(
                     playerSprite.Location + gunOffset,
-                    new Vector2(0, -1),
+                    target,
                     true);
                 shotTimer = 0.0f;
             }
@@ -116,9 +124,12 @@ namespace Asteroid_Belt_Assault
                 {
                     isSongPlaying = true;
                     MediaPlayer.Play(SoundManager.Reggae);
+                    playerSprite.CurrentList = 1;
+                    playerSprite.AddFrame(new Rectangle(146, 149, 50, 50));
                 }
 
-                //playerSprite = new Sprite(playerSprite.Location, spriteSheet, new Rectangle(146, 149, 199, 203), playerSprite.Velocity);
+
+
                 
             }
 
@@ -126,6 +137,7 @@ namespace Asteroid_Belt_Assault
             {
                 isSongPlaying = false;
                 MediaPlayer.Stop();
+                playerSprite.CurrentList = 0;
             }
               
         }

@@ -116,9 +116,8 @@ namespace Asteroid_Belt_Assault
                     0,
                     0,
                     this.Window.ClientBounds.Width,
-                    this.Window.ClientBounds.Height)
-                if(KeyState.Down(Keys.R)==false||
-               ;
+                    this.Window.ClientBounds.Height));
+               
 
             enemyManager = new EnemyManager(
                 spriteSheet,

@@ -12,7 +12,8 @@ namespace Asteroid_Belt_Assault
     {
         public Texture2D Texture;
 
-        protected List<Rectangle> frames = new List<Rectangle>();
+        protected List<List<Rectangle>> frames = new List<List<Rectangle>>();
+        //protected List<Rectangle> frames = new List<Rectangle>();
         private int frameWidth = 0;
         private int frameHeight = 0;
         private int currentFrame;
@@ -28,6 +29,21 @@ namespace Asteroid_Belt_Assault
 
         public float RelativeSize = 1;
 
+        private int clist = 0;
+
+        public int CurrentList
+        {
+            get { return clist; }
+            set
+            {
+                if (value > frames.Count)
+                    throw new Exception("Sprite.cs - Frame list is out of bounds");
+
+                this.currentFrame = 0;
+                clist = value;
+            }
+        }
+
         protected Vector2 location = Vector2.Zero;
         protected Vector2 velocity = Vector2.Zero;
 
@@ -41,7 +57,8 @@ namespace Asteroid_Belt_Assault
             Texture = texture;
             this.velocity = velocity;
 
-            frames.Add(initialFrame);
+            frames.Add(new List<Rectangle>());
+            frames[clist].Add(initialFrame);
             frameWidth = initialFrame.Width;
             frameHeight = initialFrame.Height;
         }
@@ -76,7 +93,7 @@ namespace Asteroid_Belt_Assault
             set
             {
                 currentFrame = (int)MathHelper.Clamp(value, 0,
-                frames.Count - 1);
+                frames[clist].Count - 1);
             }
         }
 
@@ -88,7 +105,7 @@ namespace Asteroid_Belt_Assault
 
         public Rectangle Source
         {
-            get { return frames[currentFrame]; }
+            get { return frames[clist][currentFrame]; }
         }
 
         public Rectangle Destination
@@ -140,7 +157,10 @@ namespace Asteroid_Belt_Assault
 
         public void AddFrame(Rectangle frameRectangle)
         {
-            frames.Add(frameRectangle);
+            if (clist == frames.Count)
+                frames.Add(new List<Rectangle>());
+
+            frames[clist].Add(frameRectangle);
         }
 
         public virtual void Update(GameTime gameTime)
@@ -151,7 +171,7 @@ namespace Asteroid_Belt_Assault
 
             if (timeForCurrentFrame >= FrameTime)
             {
-                currentFrame = (currentFrame + 1) % (frames.Count);
+                currentFrame = (currentFrame + 1) % (frames[clist].Count);
                 timeForCurrentFrame = 0.0f;
             }
 
