@@ -93,6 +93,7 @@
     <Compile Include="ExplosionManager.cs" />
     <Compile Include="Particle.cs" />
     <Compile Include="PlayerManager.cs" />
+    <Compile Include="Power-Ups.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />

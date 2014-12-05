@@ -38,6 +38,7 @@ namespace Asteroid_Belt_Assault
         PlayerManager playerManager;
         EnemyManager enemyManager;
         ExplosionManager explosionManager;
+        Power_Ups powerUps;
 
         CollisionManager collisionManager;
 
@@ -157,6 +158,9 @@ namespace Asteroid_Belt_Assault
                 reggaeshiptexture,
                 new Rectangle(0, 0, 192, 256),
                 Vector2.Zero);
+
+            powerUps = new Power_Ups(
+                );
 
             pericles14 = Content.Load<SpriteFont>(@"Fonts\Pericles14");
 
