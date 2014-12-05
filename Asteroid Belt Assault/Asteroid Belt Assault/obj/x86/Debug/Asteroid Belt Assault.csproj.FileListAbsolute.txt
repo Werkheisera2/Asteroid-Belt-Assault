@@ -64,3 +64,5 @@ C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Ast
 C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Reggae.wma
 C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\reggaeshark.xnb
 C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\PlasmaBall.xnb
+C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\PlasmaButton.xnb

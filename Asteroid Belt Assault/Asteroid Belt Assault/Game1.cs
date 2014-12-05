@@ -200,7 +200,7 @@ namespace Asteroid_Belt_Assault
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            if (GamePad.GetState(PlayerIndex.One).Buttons.X == ButtonState.Pressed)
                 this.Exit();
 
             // TODO: Add your update logic here
@@ -355,10 +355,10 @@ namespace Asteroid_Belt_Assault
             {
                 spriteBatch.DrawString(
                     pericles14,
-                    "Y O U ' R E  A  F A I L U R E !",
+                    "Y O U  H A V E  F A I L E D  R E G G A E  S H A R K !!!",
                     new Vector2(
                         this.Window.ClientBounds.Width / 2 -
-                          pericles14.MeasureString("Y O U ' R E  A  F A I L U R E !").X / 2,
+                          pericles14.MeasureString("Y O U  H A V E  F A I L E D  R E G G A E  S H A R K !!!").X / 2,
                         50),
                     Color.White);
             }

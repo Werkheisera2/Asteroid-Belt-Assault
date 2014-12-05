@@ -13,3 +13,5 @@ Content\Sounds\Shot2.xnb
 Content\Reggae.xnb
 Content\Reggae.wma
 Content\Fonts\Pericles14.xnb
+Content\Textures\PlasmaBall.xnb
+Content\Textures\PlasmaButton.xnb

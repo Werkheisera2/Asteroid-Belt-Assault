@@ -36,14 +36,36 @@ namespace Asteroid_Belt_Assault
 
         public void LoadContent()
         {
+            spriteBatch = new SpriteBatch(GraphicsDevice);
 
             PlasmabuttonSheet = Content.Load<Texture2D>("Textures/PlasmaButton");
 
             Plasmabutton = new Sprite(new Vector2(-50 + rand.Next(-500, 0), rand.Next(50, 700)),
                                   PlasmabuttonSheet,
                                   new Rectangle(0, 0, 115, 104),
-                                  new Vector2(80, 0));
+                                  new Vector2(0, -20));
+        }
+
+
+            protected override void Update(GameTime gameTime)
+            {
+                Plasmabutton.Update(gameTime);
+
+                base.Update(gameTime);
+            }
+
+            protected override void  Draw(GameTime gameTime)
+            {
+                spriteBatch.Begin();
+
+                Plasmabutton.Draw(spriteBatch);
+
+                spriteBatch.End();
+                base.Draw(gameTime);
+            }
+
+
         }
 
     }
-}
+

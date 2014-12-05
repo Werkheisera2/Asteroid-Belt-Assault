@@ -16,6 +16,7 @@ namespace Asteroid_Belt_Assault
         public Sprite playerSprite;
         private float playerSpeed = 160.0f;
         private Rectangle playerAreaLimit;
+        private bool ReggaeSharkMode = false;
 
         public long PlayerScore = 0;
         public int LivesRemaining = 3;
@@ -122,6 +123,7 @@ namespace Asteroid_Belt_Assault
             {
                 if (!isSongPlaying)
                 {
+                    ReggaeSharkMode = true;
                     isSongPlaying = true;
                     MediaPlayer.Play(SoundManager.Reggae);
                     playerSprite.CurrentList = 1;
@@ -135,6 +137,7 @@ namespace Asteroid_Belt_Assault
 
             if (!oldks.IsKeyDown(Keys.T) && keyState.IsKeyDown(Keys.T))
             {
+                ReggaeSharkMode = false;
                 isSongPlaying = false;
                 MediaPlayer.Stop();
                 playerSprite.CurrentList = 0;

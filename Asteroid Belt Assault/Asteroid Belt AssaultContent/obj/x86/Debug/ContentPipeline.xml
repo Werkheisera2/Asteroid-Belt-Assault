@@ -128,6 +128,24 @@
       <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Fonts\Pericles14.xnb</Output>
       <Time>2014-12-05T07:28:10.175-05:00</Time>
     </Item>
+    <Item>
+      <Source>Textures\PlasmaBall.png</Source>
+      <Name>Textures\PlasmaBall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\PlasmaBall.xnb</Output>
+      <Time>2014-12-05T07:47:14.62-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\PlasmaButton.png</Source>
+      <Name>Textures\PlasmaButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Asteroid-Belt-Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\PlasmaButton.xnb</Output>
+      <Time>2014-12-05T08:01:22.611-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
